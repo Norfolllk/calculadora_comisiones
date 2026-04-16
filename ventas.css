@@ -41,7 +41,7 @@ h2 {
 
 label {
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
     color: #cbd5e1;
     font-size: 0.96rem;
     font-weight: 600;
@@ -49,8 +49,8 @@ label {
 
 input {
     width: 100%;
-    margin-bottom: 16px;
-    padding: 14px 2px;
+    margin-bottom: 4px;
+    padding: 14px 16px;
     border-radius: 14px;
     border: 1px solid rgba(148, 163, 184, 0.18);
     background: #0f172a;
@@ -65,10 +65,24 @@ input:focus {
     box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.12);
 }
 
+.input-error {
+    border-color: #f87171;
+    box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.12);
+}
+
+.error {
+    display: block;
+    margin: 6px 0 14px;
+    color: #f87171;
+    font-size: 0.92rem;
+    font-style: italic;
+    min-height: 1.25rem;
+}
+
 button {
     width: 100%;
     padding: 14px 16px;
-    margin-top: 4px;
+    margin-top: 10px;
     border-radius: 14px;
     border: none;
     background-color: #22c55e;
@@ -145,5 +159,12 @@ span {
     input,
     button {
         padding: 12px 14px;
+    }
+
+    .error {
+        color: red;
+        font-style: italic;
+        font-size: 12px;
+        margin-top: auto;
     }
 }
