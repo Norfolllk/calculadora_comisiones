@@ -15,19 +15,25 @@ function calcularComision(numeroVentas, PrecioProducto) {
 function calcular() {
 
     //Recuperar propiedad de la caja de texto
-    let componentesueldoBase = document.getElementById("txtSueldoBase");
-    let componenteventas = document.getElementById("txtVentas");
-    let componentePrecio = document.getElementById("txtPrecio");
+    //let componentesueldoBase = document.getElementById("txtSueldoBase");
+    //let componenteventas = document.getElementById("txtVentas");
+    //let componentePrecio = document.getElementById("txtPrecio");
 
     //Recuperar el valor de la caja de texto
-    let sueldoBaseStr = componenteSueldoBase.value;
-    let numeroVentasStr = componenteventas.value;
-    let PrecioProductostr = componentePrecio.value;
+        //let sueldoBaseStr = componenteSueldoBase.value;
+        //let sueldoBaseStr = recuperarTexto("txtSueldoBase");
+        //let numeroVentasStr = componenteventas.value;
+        //let numeroVentasStr = recuperarTexto("txtVentas");
+        //let PrecioProductostr = componentePrecio.value;
+        //let PrecioProductostr = recuperarTexto("txtPrecio");
 
     //Convertir el texto a números
-    let sueldoBase = parseFloat(sueldoBaseStr);
-    let numeroVentas = parseInt(numeroVentasStr);
-    let PrecioProducto = parseFloat(PrecioProductostr);
+    //let sueldoBase = parseFloat(sueldoBaseStr);
+    let sueldoBase = recuperarFloat("txtSueldoBase");
+    //let numeroVentas = parseInt(numeroVentasStr);
+    let numeroVentas = parseInt(recuperarTexto("txtVentas"));
+    //let PrecioProducto = parseFloat(PrecioProductostr);
+    let PrecioProducto = recuperarFloat("txtPrecio");
 
     //Mostrar texto en pantalla
     let comision = calcularComision(numeroVentas, PrecioProducto);
