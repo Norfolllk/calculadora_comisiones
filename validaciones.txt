@@ -1,0 +1,13 @@
+1. Buenas noches, chat! Analiza únicamente cada adjunto que te entregue, por el momento solo analiza tanto individualmente como en su conjunto.
+
+2. Actúa como diseñador gráfico, mejora la parte visual de esta pagina tipo industria bancaria, modifica el html y el css y centra todos los titulos
+
+3. Ayudame con el codigo para que esos botones a un nivel más “pro” pero sin perder la formalidad y la profesionalidad con estilo tipo neón / gamer, agregando brillo, mejores animaciones e íconos más limpios siendo simple.
+
+4. Ayudame con el codigo para el html ya que quiero añadir iconos en ingresos, egresos, monto, plazo en años y tasa de interes; añade ademas en los rectangulos en donde se colocan los datos una referencia de la respuesta que se solicita
+
+5. Ayudame con el codigo para que los errores aparezcan en rojo debajo de cada campo validado
+
+6. Ayudame con una comprobacion afirmativa/negativa si cumple con estilos de Responsive, corporativo, legible, estético.
+
+7. Gracias chat, buena noche!

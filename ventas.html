@@ -11,6 +11,8 @@
 <body>
 
     <div class="contenedor">
+         <img src="dog_bank.png" alt="Logo de la empresa" class="logo">
+        <h1>-Banco L`Barbare-</h1>
         <h1>Calculadora de Comisiones</h1>
 
         <label>Salario Base:</label>
@@ -25,7 +27,12 @@
         <input type="text" id="txtPrecio" onblur="validarInput(this)" />
         <small id="error_txtPrecio" class="error"></small>
 
-        <button onclick="calcular()">Calcular Comisión</button>
+        <button onclick="calcular()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Calcular Comisión
+        </button>
 
         <h2>Resultados</h2>
         <p>Salario Base: <span id="spSueldoBase"></span></p>
